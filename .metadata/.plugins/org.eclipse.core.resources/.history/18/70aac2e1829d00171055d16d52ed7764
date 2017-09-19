@@ -6,7 +6,7 @@ public class SomarArrays {
 		int[] array = { 10, 10, 10, 100, 0, 2, 2, 2, 2};
 		int total = 0;
 		
-		//Adicionar Valor de cada evento ao total
+		//Adicionar valor de cada evento ao total
 		for(int num: array)
 			total += num;
 		
