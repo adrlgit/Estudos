@@ -1,0 +1,26 @@
+package com.andre.array;
+
+public class Treino {
+
+	public static void main(String[] args) {
+		int[][] array1 = { { 1, 2, 3 }, { 4, 5, 6 },{8, 9,},{ 5, 1} };
+
+		int[][] array2 = { { 1, 2 }, { 3 }, { 4, 5, 6 } };
+		
+		System.out.println("_");
+		saidaArray(array1);
+		System.out.println("_");
+		saidaArray(array2);
+	}
+		private static void saidaArray(int[][] array){
+			for(int linha = 0; linha < array.length; linha ++){
+				for (int coluna = 0; coluna < array[linha].length; coluna++)
+					System.out.printf("%d", array[linha][coluna]);
+				
+				System.out.println();
+			}
+		}
+		
+	}
+
+

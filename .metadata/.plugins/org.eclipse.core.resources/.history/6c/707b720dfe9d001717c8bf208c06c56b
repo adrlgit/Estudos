@@ -1,0 +1,15 @@
+package com.andre.array;
+
+public class Treino {
+
+	public static void main(String[] args) {
+		int array[] = {1,4,6,7,8,};
+		int total =0;
+		
+		for(int num: array)
+			total += num;
+		
+		System.out.printf("Total %d: ",total);
+	}
+
+}
